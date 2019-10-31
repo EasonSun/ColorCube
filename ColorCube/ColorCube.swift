@@ -113,6 +113,10 @@ public enum ColorCube {
 
     free(bitmap)
     
+    for i in stride(from: 0, to: 1000, by: 1) {
+        print(array[i])
+    }
+    
     let data = Data.init(bytes: array, count: dataSize)
     return data
   }

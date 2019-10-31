@@ -14,6 +14,10 @@
 		4B87D0EC1DEB0077009BAEE0 /* LUT.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B87D0EB1DEB0077009BAEE0 /* LUT.png */; };
 		4B87D0F21DEB1113009BAEE0 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B87D0F11DEB1113009BAEE0 /* sample.jpg */; };
 		4B87D0F41DEB1836009BAEE0 /* LUT.cube in Resources */ = {isa = PBXBuildFile; fileRef = 4B87D0F31DEB1836009BAEE0 /* LUT.cube */; };
+		D04578AF2367FE56008A6FF2 /* IMG_4302.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04578AE2367FE56008A6FF2 /* IMG_4302.jpg */; };
+		D04578B02367FE56008A6FF2 /* IMG_4302.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04578AE2367FE56008A6FF2 /* IMG_4302.jpg */; };
+		D04578B2236800D3008A6FF2 /* IMG_4207.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04578B1236800D3008A6FF2 /* IMG_4207.jpg */; };
+		D04578B3236800D3008A6FF2 /* IMG_4207.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04578B1236800D3008A6FF2 /* IMG_4207.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,8 @@
 		4B87D0EB1DEB0077009BAEE0 /* LUT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LUT.png; sourceTree = "<group>"; };
 		4B87D0F11DEB1113009BAEE0 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
 		4B87D0F31DEB1836009BAEE0 /* LUT.cube */ = {isa = PBXFileReference; lastKnownFileType = file; path = LUT.cube; sourceTree = "<group>"; };
+		D04578AE2367FE56008A6FF2 /* IMG_4302.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4302.jpg; sourceTree = "<group>"; };
+		D04578B1236800D3008A6FF2 /* IMG_4207.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4207.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 				4B87D0EB1DEB0077009BAEE0 /* LUT.png */,
 				4B87D0DD1DEAFF62009BAEE0 /* LookUpTableTests.swift */,
 				4B87D0F11DEB1113009BAEE0 /* sample.jpg */,
+				D04578AE2367FE56008A6FF2 /* IMG_4302.jpg */,
+				D04578B1236800D3008A6FF2 /* IMG_4207.jpg */,
 			);
 			path = ColorCubeTests;
 			sourceTree = "<group>";
@@ -160,7 +168,7 @@
 				TargetAttributes = {
 					4B87D0CE1DEAFF62009BAEE0 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = KU2QEJ9K3Z;
+						DevelopmentTeam = 2NXSA77HGL;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -176,6 +184,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4B87D0C51DEAFF62009BAEE0;
@@ -194,6 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04578B2236800D3008A6FF2 /* IMG_4207.jpg in Resources */,
+				D04578AF2367FE56008A6FF2 /* IMG_4302.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04578B3236800D3008A6FF2 /* IMG_4207.jpg in Resources */,
+				D04578B02367FE56008A6FF2 /* IMG_4302.jpg in Resources */,
 				4B87D0EC1DEB0077009BAEE0 /* LUT.png in Resources */,
 				4B87D0F21DEB1113009BAEE0 /* sample.jpg in Resources */,
 				4B87D0F41DEB1836009BAEE0 /* LUT.cube in Resources */,
@@ -342,7 +355,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = KU2QEJ9K3Z;
+				DEVELOPMENT_TEAM = 2NXSA77HGL;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -353,7 +366,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -363,7 +376,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = KU2QEJ9K3Z;
+				DEVELOPMENT_TEAM = 2NXSA77HGL;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -373,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.muuki.LookUpTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -386,7 +399,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.muuki.LookUpTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -399,7 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.muuki.LookUpTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
